@@ -43,6 +43,9 @@ iframe#tela {
     border-radius: 2px;
 }
 section#redes-sociais {
+    display:  block;
+    flex-direction:  column;
+    max-width: 50px;
     text-align: right;
 }
 
@@ -52,6 +55,7 @@ section#redes-sociais img {
     border-radius: 50%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
     box-sizing: border-box;
+
 }
 
 section#redes-sociais img:hover {
